@@ -7,6 +7,13 @@ gem 'rails-api'
 
 gem 'spring', :group => :development
 
+gem 'sqlite3'
+
+gem 'sass-rails', '~> 5.0'
+
+gem 'bcrypt'
+
+gem 'cancancan'
 
 gem 'pg'
 
@@ -20,6 +27,7 @@ end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
+gem 'spring'
 
 
 # To use ActiveModel has_secure_password
