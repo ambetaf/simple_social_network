@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'sessions/new'
+  get 'users/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -57,17 +57,16 @@ Rails.application.routes.draw do
   #   end
 
   Rails.application.routes.draw do
-  get 'sessions/new'
+  get 'users/index'
 
-    root                'static_pages#home'
-    get    'help'    => 'static_pages#help'
-    get    'about'   => 'static_pages#about'
-    get    'contact' => 'static_pages#contact'
-    get    'signup'  => 'users#new'
-    get    'login'   => 'sessions#new'
-    post   'login'   => 'sessions#create'
-    delete 'logout'  => 'sessions#destroy'
-    resources :users
+    get 'example' => 'example#index'
+
+    namespace :api do
+      resources :users, defaults: { format: :json }
+    end
   end
+
+  root 'users#index'
+
 
 end
