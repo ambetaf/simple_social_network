@@ -1,5 +1,22 @@
 Rails.application.routes.draw do
-  get 'users/index'
+  mount_devise_token_auth_for 'User', at: 'auth'
+
+
+  root 'static_pages#index'
+
+  # get 'users/index'
+  #
+  #
+  #
+  # get 'example' => 'example#index'
+  #
+  # namespace :api do
+  #   resources :users, defaults: { format: :json }
+  # end
+
+
+
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -56,17 +73,7 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  Rails.application.routes.draw do
-  get 'users/index'
 
-    get 'example' => 'example#index'
-
-    namespace :api do
-      resources :users, defaults: { format: :json }
-    end
-  end
-
-  root 'users#index'
 
 
 end
