@@ -67,4 +67,9 @@ group :test do
   gem 'database_cleaner'
 end
 
-gem 'devise_token_auth'
+
+gem 'rails-api'
+
+gem 'spring', :group => :development
+
+gem 'devise_token_auth', git: 'https://github.com/jasonswett/devise_token_auth.git'

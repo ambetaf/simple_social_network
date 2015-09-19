@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
-  mount_devise_token_auth_for 'User', at: 'auth'
 
 
-  root 'static_pages#index'
+
+    scope '/api' do
+      mount_devise_token_auth_for 'User', at: '/auth'
+      resources :groups, except: [:new, :edit]
+    end
+
 
   # get 'users/index'
   #
@@ -73,7 +77,5 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-
-
-
+  get '*a' => 'static_pages#index'
 end

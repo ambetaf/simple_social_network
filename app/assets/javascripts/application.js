@@ -17,6 +17,8 @@
 //= require lodash
 //= require restangular
 //= require angular-ui-router
+//= require angular-cookie
+//= require ng-token-auth
 
 //= require angular-app/app
 //= require_tree ./angular-app/modules
