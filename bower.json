@@ -3,10 +3,10 @@
     "name": "bower-rails generated lib assets",
     "dependencies": {
       "angular": "v1.2.25",
-      "restangular": "v1.4.0",
       "angular-ui-router": "latest",
       "ng-token-auth": "latest",
-      "bootstrap": "latest"
+      "bootstrap": "latest",
+      "angular-devise": "latest"
     }
   },
   "vendor": {

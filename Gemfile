@@ -9,14 +9,6 @@ gem 'sqlite3'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
-# Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
-# See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
-
-# Use jquery as the JavaScript library
-gem 'jquery-rails'
-
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
@@ -42,36 +34,12 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'angular-rails-templates'
-
 gem 'bower-rails'
 
-group :development, :test do
-  gem 'rspec-rails', '~> 3.1.0'
-end
-
-group :test do
-  gem 'database_cleaner'
-  gem 'factory_girl_rails'
-end
-
-gem 'active_model_serializers'
-
+gem 'angular-rails-templates'
 
 gem 'responders', '~> 2.0'
 
-
-group :test do
-  gem 'cucumber-rails', :require => false
-  # database_cleaner is not required, but highly recommended
-  gem 'database_cleaner'
-end
-
-
-gem 'rails-api'
-
-gem 'spring', :group => :development
-
-gem 'devise_token_auth', git: 'https://github.com/jasonswett/devise_token_auth.git'
-
 gem 'angular_rails_csrf'
+
+gem 'devise', '~> 3.4.0'

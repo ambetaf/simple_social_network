@@ -1,341 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6919a8b0-37e7-442b-b11c-8aac940b5107" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/.keep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/.keep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular/angular.min.js.gzip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/restangular/dist/restangular.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/test.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-cookie/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/lodash/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/ng-token-auth/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/restangular/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/.csscomb.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/.csslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/restangular/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/js/.jscsrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/grunt/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/js/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.rspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/restangular/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150914053247_devise_token_auth_create_users.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150921011557_create_posts.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/ng-token-auth/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/restangular/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/restangular/CONTRIBUTE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/data/Data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/restangular/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular-app/controllers/HomeCtrl.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/ng-token-auth/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/lodash/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/MIT-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular-app/controllers/MainCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/ng-token-auth/Procfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/ng-token-auth/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/restangular/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/effects/Tween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular-app/controllers/UserPosts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular-app/controllers/UserRegistrations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular-app/controllers/UserSessions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/manipulation/_evalUrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/data/accepts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/core/access.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/css/addGetHookIf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/js/affix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/event/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/js/alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/event/alias.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/exports/amd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-cookie/angular-cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-cookie/angular-cookie.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular/angular-csp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/api/angular-ui-router.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/release/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/release/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/effects/animatedSelector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular-app/app.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/var/arr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/attributes/attr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/auth.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/background-variant.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/dist/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/dist/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/dist/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/dist/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/dist/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/dist/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/border-radius.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-cookie/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/lodash/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/ng-token-auth/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/restangular/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/bower_rails.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/grunt/bs-commonjs-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/grunt/bs-raw-files-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/button-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/js/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/callbacks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/js/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/center-block.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/var/class2type.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/attributes/classes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/clearfix.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/close.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/code.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/js/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/src/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/component-animations.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/var/concat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/grunt/configBridge.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/css/var/cssExpand.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/css/curCSS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/data/var/data_priv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/data/var/data_user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/css/defaultDisplay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/deferred.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/queue/delay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/deprecated.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/devise_token_auth.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/dimensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/js/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/effects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/example.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/example_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/traversing/findFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/css/var/getStyles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/exports/global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/glyphicons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/gradients.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/grid-framework.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/var/hasOwn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/hide-text.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/image.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/static_pages/index.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/var/indexOf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/core/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/input-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/intro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/css/var/isHidden.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/dist/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/dist/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/dist/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/ajax/jsonp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/jumbotron.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/restangular/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/restangular/karma.underscore.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/restangular/license.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/ajax/load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/lodash/dist/lodash.compat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/lodash/dist/lodash.compat.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/lodash/dist/lodash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/lodash/dist/lodash.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/lodash/dist/lodash.underscore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/lodash/dist/lodash.underscore.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/manipulation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/media.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/js/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/modals.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/nav-divider.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/nav-vertical-align.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/navs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/new.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/ng-token-auth/src/ng-token-auth.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/ng-token-auth/dist/ng-token-auth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/ng-token-auth/dist/ng-token-auth.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/ajax/var/nonce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/normalize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/dist/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/offset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/opacity.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/outro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-cookie/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/restangular/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/pager.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/core/parseHTML.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/ajax/parseJSON.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/ajax/parseXML.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/var/pnum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/js/popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/popovers.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/post.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/post_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/posts_controller_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/print.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/progress-bar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/progress-bars.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/attributes/prop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/var/push.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/manipulation/var/rcheckableType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/core/ready.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/reset-filter.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/reset-text.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/resize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/src/resolve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/responsive-embed.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/responsive-utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/responsive-visibility.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/restangular/dist/restangular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/restangular/src/restangular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/restangular/dist/restangular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/restangular/test/restangularSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/css/var/rmargin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/traversing/var/rneedsContext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/var/rnotwhite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/css/var/rnumnonpx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/ajax/var/rquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/core/var/rsingleTag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/grunt/sauce_browsers.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/scaffolding.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/ajax/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/js/scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/selector-native.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/selector-sizzle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/selector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/serialize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/session_store.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/size.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/sizzle/dist/sizzle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/sizzle/dist/sizzle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/sizzle/dist/sizzle.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/var/slice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/src/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/src/stateDirectives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/src/stateFilters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/static_pages.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/static_pages.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/static_pages_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/var/strundefined.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/attributes/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/css/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/event/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/manipulation/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/var/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/css/swap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/tab-focus.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/js/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/table-row.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/src/templateFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/text-emphasis.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/text-overflow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/theme.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/thumbnails.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/var/toString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/js/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/js/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/traversing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/type.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/src/urlMatcherFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/src/urlRouter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/user_registrations.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/user_steps.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/users.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/attributes/val.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/mixins/vendor-prefixes.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/src/view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/src/viewDirective.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/angular-ui-router/src/viewScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/bootstrap/less/wells.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/wrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/bower_components/jquery/src/ajax/xhr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/simple_social_network_midterm.iml" afterPath="$PROJECT_DIR$/.idea/simple_social_network_midterm.iml" />
-    </list>
-    <ignored path="simple_social_network_midterm.iws" />
+    <list default="true" id="9a21fe49-fad5-483f-bbfa-c8bf6fec2ec3" name="Default" comment="" />
+    <ignored path="midterm-ssn.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -353,82 +20,42 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="simple_social_network_midterm" />
+    <favorites_list name="midterm-ssn" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="app.js.coffee" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular-app/app.js.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
-              <folding>
-                <marker date="1442912377812" expanded="true" signature="30:2067" placeholder="do ... end" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <leaf />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/angular-app.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/angular-app/app.js.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/angular-app/modules/example.js.coffee.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/angular-app/controllers/exampleCtrl.js.coffee" />
-        <option value="$PROJECT_DIR$/app/controllers/example_controller.rb" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/serializers/employee_serializer.rb" />
-        <option value="$PROJECT_DIR$/app/serializers/user_serializer.rb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/users_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/angular-app/modules/user.js.coffee.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/angular-app/models/employee/User.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/posts/posts.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/posts/_posts.html" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/home/_home.html" />
+        <option value="$PROJECT_DIR$/app/views/_posts.html" />
+        <option value="$PROJECT_DIR$/db/migrate/20150923104950_create_posts.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/db/schema.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/posts/postsCtrl.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/posts/postsService.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/home/mainCtrl.js" />
+        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/angular-app/services/user/UserService.js.coffee" />
+        <option value="$PROJECT_DIR$/public/nav/_nav.html" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/nav/navCtrl.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/authentication/authCtrl.js" />
+        <option value="$PROJECT_DIR$/public/auth/_login.html" />
+        <option value="$PROJECT_DIR$/public/auth/_register.html" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/app.js" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/angular-app/services/user/UserListCtrl.js.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/angular-app/controllers/user/UserListCtrl.js.coffee" />
-        <option value="$PROJECT_DIR$/app/views/example/index.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/comment.rb" />
+        <option value="$PROJECT_DIR$/app/models/post.rb" />
+        <option value="$PROJECT_DIR$/public/home/_home.html" />
+        <option value="$PROJECT_DIR$/public/posts/_posts.html" />
+        <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
       </list>
     </option>
   </component>
@@ -445,7 +72,7 @@
     <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -469,57 +96,27 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
+              <option name="myItemId" value="midterm-ssn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
+              <option name="myItemId" value="midterm-ssn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="simple_social_network_midterm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
+              <option name="myItemId" value="midterm-ssn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -533,7 +130,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
+              <option name="myItemId" value="midterm-ssn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -547,7 +144,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
+              <option name="myItemId" value="midterm-ssn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -556,160 +153,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concerns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_social_network_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -719,6 +162,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -730,13 +175,15 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Albert\RubymineProjects\midterm-ssn\public" />
+      <recent name="C:\Users\Albert\RubymineProjects\midterm-ssn\app\views\layouts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Albert\RubymineProjects\simple_social_network_midterm\app\assets\javascripts\angular-app\controllers" />
-      <recent name="C:\Users\Albert\RubymineProjects\simple_social_network_midterm\app\assets\javascripts\angular-app\controllers\user" />
-      <recent name="C:\Users\Albert\RubymineProjects\simple_social_network_midterm\app\assets\javascripts" />
+      <recent name="C:\Users\Albert\RubymineProjects\midterm-ssn\app\views" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: simple_social_network_midterm">
+  <component name="RunManager" selected="Rails.Development: midterm-ssn">
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -841,22 +288,6 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
-      <module name="" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="" />
@@ -891,10 +322,10 @@
       <method />
     </configuration>
     <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test: simple_social_network_midterm" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec: simple_social_network_midterm" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: simple_social_network_midterm" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: simple_social_network_midterm" />
+      <item index="0" class="java.lang.String" itemvalue="Rails.Development: midterm-ssn" />
+      <item index="1" class="java.lang.String" itemvalue="Rails.Production: midterm-ssn" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.spec: midterm-ssn" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.test: midterm-ssn" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -903,18 +334,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6919a8b0-37e7-442b-b11c-8aac940b5107" name="Default" comment="" />
-      <created>1441798161775</created>
+      <changelist id="9a21fe49-fad5-483f-bbfa-c8bf6fec2ec3" name="Default" comment="" />
+      <created>1442989716133</created>
       <option name="number" value="Default" />
-      <updated>1441798161775</updated>
+      <updated>1442989716133</updated>
     </task>
-    <task id="LOCAL-00001" summary="Added routes for login and logout">
-      <created>1441803288597</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1441803288597</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -926,9 +350,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28517398" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -936,10 +358,12 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -953,223 +377,213 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added routes for login and logout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added routes for login and logout" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/../Midterm/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="1.0858586">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43870968">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58476657">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="9" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="9" />
-          <folding>
-            <marker date="1442912377812" expanded="true" signature="30:2067" placeholder="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1442912377812" expanded="true" signature="30:2067" placeholder="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <marker date="1442912377812" expanded="true" signature="30:2067" placeholder="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1442912377812" expanded="true" signature="30:2067" placeholder="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../softdev-i-mgt-tafc/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../softdev-i-mgt-tafc/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/boot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/setup">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../softdev-i-mgt-tafc/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.78064513">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="14" />
+          <caret line="87" column="36" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.044226">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.57580644">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
-          <folding>
-            <marker date="1442912377812" expanded="true" signature="30:2067" placeholder="do ... end" />
-          </folding>
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/posts/postsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular-app/app.js.coffee">
+    <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/posts/postsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/home/mainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/auth/_login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/auth/_register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/authentication/authCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/nav/navCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/nav/_nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/post.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/home/_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4848485">
+          <caret line="21" column="100" selection-start-line="21" selection-start-column="100" selection-end-line="21" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/posts/_posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34175083">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16451614">
+          <caret line="6" column="82" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
