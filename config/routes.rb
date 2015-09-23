@@ -77,5 +77,13 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  get '*a' => 'static_pages#index'
+
+
+    resources :posts, only: [:create, :index, :show] do
+      member do
+        put '/upvote' => 'posts#upvote'
+      end
+    end
+
+    get '*a' => 'static_pages#index'
 end

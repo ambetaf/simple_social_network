@@ -73,3 +73,5 @@ gem 'rails-api'
 gem 'spring', :group => :development
 
 gem 'devise_token_auth', git: 'https://github.com/jasonswett/devise_token_auth.git'
+
+gem 'angular_rails_csrf'

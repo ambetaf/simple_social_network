@@ -5,7 +5,8 @@
       "angular": "v1.2.25",
       "restangular": "v1.4.0",
       "angular-ui-router": "latest",
-      "ng-token-auth": "latest"
+      "ng-token-auth": "latest",
+      "bootstrap": "latest"
     }
   },
   "vendor": {

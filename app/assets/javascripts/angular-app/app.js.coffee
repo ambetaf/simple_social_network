@@ -20,6 +20,12 @@
       url: '/home'
       templateUrl: 'templates/home.html'
       controller: 'MainCtrl'
+      resolve: postPromise: [
+        'posts'
+        (posts) ->
+          posts.getAll()
+      ]
+
     })
     .state('sign_in', {
       url: '/sign_in'
@@ -44,6 +50,6 @@
 
 @app.run [ '$rootScope', '$location', ($rootScope, $location) ->
   $rootScope.$on 'auth:login-success', ->
-    $location.path '/'
+    $location.path '/home'
 
 ]

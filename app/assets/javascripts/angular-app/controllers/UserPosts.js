@@ -8,8 +8,6 @@ angular.module('midtermApp')
 
             $scope.post = posts.posts[$stateParams.id];
 
-
-
         }]);
     //.controller('PostsCtrl', ['$scope',posts, function ($scope, posts) {
     //
