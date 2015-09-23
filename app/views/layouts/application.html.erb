@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="midtermApp">
+<head>
+  <base href="/" />
+  <title>SimpleSocialNetworkMidterm</title>
+
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+    <li ng-show="!user.id"><a ng-href="/sign_in">Sign in</a></li>
+    <li ng-show="user.id"><a ng-click='signOut()'>Sign out</a></li>
+    {{user.email}}
+    {{user.name}}
+
+    <div ui-view></div>
+    <%= yield %>
+
+</body>
+</html>

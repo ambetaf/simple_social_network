@@ -66,3 +66,12 @@ group :test do
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner'
 end
+
+
+gem 'rails-api'
+
+gem 'spring', :group => :development
+
+gem 'devise_token_auth', git: 'https://github.com/jasonswett/devise_token_auth.git'
+
+gem 'angular_rails_csrf'
