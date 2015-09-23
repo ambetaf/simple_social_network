@@ -25,8 +25,8 @@
         (posts) ->
           posts.getAll()
       ]
-
     })
+  
     .state('sign_in', {
       url: '/sign_in'
       templateUrl: 'templates/new.html'

@@ -21,7 +21,6 @@ angular.module('midtermApp').factory('posts', [
                         post.upvotes += 1;
                     });
             };
-
             return o;
         }])
 
