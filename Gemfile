@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -43,3 +43,16 @@ gem 'responders', '~> 2.0'
 gem 'angular_rails_csrf'
 
 gem 'devise', '~> 3.4.0'
+
+group :development, :test do
+  gem 'cucumber-rails'
+end
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.1.0'
+end
+
+group :test do
+  gem 'database_cleaner'
+  gem 'factory_girl_rails'
+end
