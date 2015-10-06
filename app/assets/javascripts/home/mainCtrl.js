@@ -7,10 +7,6 @@ angular.module('midtermApp')
 
 
 
-            $scope.test = 'Hello world!';
-
-
-
             $scope.addPost = function(){
                 if(!$scope.title || $scope.title === '') { return; }
                 posts.create({

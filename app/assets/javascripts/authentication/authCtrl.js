@@ -5,10 +5,14 @@ angular.module('midtermApp')
         'Auth',
         function($scope, $state, Auth){
 
+            $scope.error;
+
             $scope.login = function() {
                 Auth.login($scope.user).then(function(){
                     $state.go('home');
-                });
+                }, function(){
+                    $scope.error = "Error logging in!!";
+                })
             };
 
             $scope.register = function() {

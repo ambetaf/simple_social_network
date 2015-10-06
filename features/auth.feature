@@ -8,14 +8,14 @@ Feature: Authentication
     And I fill in "email" with "ambetaf@gmail.com"
     And I fill in "username" with "Ambet Fuensalida"
     And I fill in "password" with "password"
-    When I press "register"
-    Then page should have text "Successfully registered"
-    
+    When I press "submit"
+    Then page should have text "Ambet"
+
   Scenario: Logging in
-    Given I am on homepage
+    Given I am on login
     And I fill in "email" with "aafuensalida@yahoo.com"
     And I fill in "password" with "password"
-    When I press "login"
-    Then page should have text "Ambet Fuensalida"
+    When I press "submit"
+    Then page should have text "Ambet"
 
   

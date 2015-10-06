@@ -6,7 +6,8 @@
       "angular-ui-router": "latest",
       "ng-token-auth": "latest",
       "bootstrap": "latest",
-      "angular-devise": "latest"
+      "angular-devise": "latest",
+      "angular-cookie": "latest"
     }
   },
   "vendor": {

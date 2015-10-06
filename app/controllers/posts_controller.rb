@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
 
-  before_filter :authenticate_user!, only: [:create, :upvote]
+  before_filter :authenticate_user!, only: [:create, :like]
 
   def index
     respond_with Post.all
@@ -13,6 +13,7 @@ class PostsController < ApplicationController
   def show
     respond_with Post.find(params[:id])
   end
+
 
   def like
     post = Post.find(params[:id])

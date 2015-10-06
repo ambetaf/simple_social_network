@@ -8,7 +8,7 @@ angular.module('midtermApp', ['ui.router', 'templates', 'Devise'])
             $stateProvider
                 .state('home', {
                     url: '/home',
-                    templateUrl: 'home/_home.html',
+                    templateUrl: 'home/_homepage.html',
                     controller: 'MainCtrl',
                     resolve: {
                         postPromise: ['posts', function(posts){
@@ -45,6 +45,16 @@ angular.module('midtermApp', ['ui.router', 'templates', 'Devise'])
                             $state.go('home');
                         })
                     }]
+                })
+                .state('profile', {
+                    url: '/profile/{email}',
+                    templateUrl: 'users/_userProfile.html',
+                    controller: 'MainCtrl',
+                    resolve: {
+                        postPromise: ['posts', function(posts){
+                            return posts.getAll();
+                        }]
+                    }
                 });
 
             $urlRouterProvider.otherwise('home');

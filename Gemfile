@@ -44,15 +44,15 @@ gem 'angular_rails_csrf'
 
 gem 'devise', '~> 3.4.0'
 
-group :development, :test do
-  gem 'cucumber-rails'
-end
-
-group :development, :test do
-  gem 'rspec-rails', '~> 3.1.0'
-end
+gem 'devise_token_auth', git: 'https://github.com/jasonswett/devise_token_auth.git'
 
 group :test do
+  gem 'rspec', ">=1.2.2"
+  gem 'rspec-rails', ">=1.2.2"
+  gem 'capybara'
+  gem 'cucumber-rails'
+  gem 'cucumber-rails-training-wheels'
   gem 'database_cleaner'
+  gem 'selenium-webdriver'
   gem 'factory_girl_rails'
 end
