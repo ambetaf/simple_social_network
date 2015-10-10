@@ -14,6 +14,10 @@ class PostsController < ApplicationController
     respond_with Post.find(params[:id])
   end
 
+  def profile
+    respond_with Post.where(params[:id])
+  end
+
 
   def like
     post = Post.find(params[:id])

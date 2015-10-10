@@ -8,7 +8,7 @@ angular.module('midtermApp', ['ui.router', 'templates', 'Devise'])
             $stateProvider
                 .state('home', {
                     url: '/home',
-                    templateUrl: 'home/_homepage.html',
+                    templateUrl: 'home/_myhome.html',
                     controller: 'MainCtrl',
                     resolve: {
                         postPromise: ['posts', function(posts){
@@ -18,7 +18,7 @@ angular.module('midtermApp', ['ui.router', 'templates', 'Devise'])
                 })
                 .state('posts', {
                     url: '/posts/{id}',
-                    templateUrl: 'posts/_posts.html',
+                    templateUrl: 'posts/_comment.html',
                     controller: 'PostsCtrl',
                     resolve: {
                         post: ['$stateParams', 'posts', function($stateParams, posts) {
@@ -47,17 +47,27 @@ angular.module('midtermApp', ['ui.router', 'templates', 'Devise'])
                     }]
                 })
                 .state('profile', {
-                    url: '/profile/{email}',
+                    url: '/users/{id}',
                     templateUrl: 'users/_userProfile.html',
-                    controller: 'MainCtrl',
+                    controller: 'UserCtrl',
                     resolve: {
-                        postPromise: ['posts', function(posts){
-                            return posts.getAll();
+                        user: ['$stateParams', 'users', function($stateParams, users) {
+                            return users.getUser($stateParams.id);
                         }]
                     }
-                });
+                })
+                .state('follow', {
+                    url: '/users',
+                    templateUrl: 'users/_users.html',
+                    controller: 'MainCtrl',
+                    resolve: {
+                        postPromise: ['users', function(users){
+                            return users.getAllUsers();
+                        }]
+                    }
+                })
 
-            $urlRouterProvider.otherwise('home');
+           $urlRouterProvider.otherwise('home');
         }
     ])
 

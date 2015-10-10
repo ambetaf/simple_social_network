@@ -11,14 +11,16 @@ angular.module('midtermApp')
                 Auth.login($scope.user).then(function(){
                     $state.go('home');
                 }, function(){
-                    $scope.error = "Error logging in!!";
+                    $scope.error = "Error logging in user!!";
                 })
             };
 
             $scope.register = function() {
                 Auth.register($scope.user).then(function(){
                     $state.go('home');
-                });
+                }, function(){
+                        $scope.error = "Error registering user!!";
+                    });
             };
 
         }]);

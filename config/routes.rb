@@ -7,9 +7,8 @@ Rails.application.routes.draw do
 
   root to: 'application#angular'
 
-  resources :profile, only: [:index]
 
-
+  resources :users, only: [:index, :show]
 
   resources :posts, only: [:create, :index, :show] do
     resources :comments, only: [:show, :create] do
@@ -22,6 +21,5 @@ Rails.application.routes.draw do
       put '/like' => 'posts#like'
     end
   end
-
   # get '*a' => 'application#angular'
 end

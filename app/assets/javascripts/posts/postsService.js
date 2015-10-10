@@ -12,6 +12,7 @@ angular.module('midtermApp')
                 });
             };
 
+
             object.create = function(post) {
                 return $http.post('/posts.json', post).success(function(data){
                     object.posts.push(data);

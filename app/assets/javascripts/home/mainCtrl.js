@@ -2,10 +2,11 @@ angular.module('midtermApp')
     .controller('MainCtrl', [
         '$scope',
         'posts',
-        function($scope, posts){
+        'Auth',
+        'users',
+        function($scope, posts, Auth, users){
 
-
-
+            $scope.signedIn = Auth.isAuthenticated;
 
             $scope.addPost = function(){
                 if(!$scope.title || $scope.title === '') { return; }
@@ -21,6 +22,7 @@ angular.module('midtermApp')
 
 
             $scope.posts = posts.posts;
+            $scope.users = users.users;
 
 
 
