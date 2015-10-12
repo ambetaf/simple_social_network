@@ -27,7 +27,7 @@
       <span class="glyphicon glyphicon-thumbs-up"
             ng-click="incrementLikes(comment)">
           </span>
-                {{comment.likes}} - by {{comment.user.username}}
+                {{comment.likes}} - by <a ng-href="#/users/{{post.user.id}}">{{comment.user.username}}</a>
           <span style="font-size:20px; margin-left:10px;">
         {{comment.body}}
       </span>

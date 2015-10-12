@@ -15,6 +15,7 @@ angular.module('midtermApp')
 
             object.getUser = function(id) {
                     return $http.get('/users/' + id + '.json').then(function(resolve){
+                        console.log(resolve.data)
                     return resolve.data;
                 });
             };

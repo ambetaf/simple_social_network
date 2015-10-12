@@ -9,6 +9,7 @@ angular.module('midtermApp')
             object.getAll = function() {
                 return $http.get('/posts.json').success(function(data){
                     angular.copy(data, object.posts);
+                    console.log(data)
                 });
             };
 

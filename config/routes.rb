@@ -16,10 +16,15 @@ Rails.application.routes.draw do
         put '/like' => 'comments#like'
       end
     end
-
     member do
       put '/like' => 'posts#like'
     end
   end
+
+  post '/users/follow' => 'relationships#create'
+
+  resources :relationships, only: [:index, :create, :destroy]
+
+  resources :notifications, only: [:create, :index, :show]
   # get '*a' => 'application#angular'
 end

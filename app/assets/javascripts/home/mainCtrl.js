@@ -4,7 +4,8 @@ angular.module('midtermApp')
         'posts',
         'Auth',
         'users',
-        function($scope, posts, Auth, users){
+        'relationships',
+        function($scope, posts, Auth, users,relationships){
 
             $scope.signedIn = Auth.isAuthenticated;
 
@@ -19,6 +20,11 @@ angular.module('midtermApp')
             $scope.incrementLikes = function(post) {
                 posts.like(post);
             };
+
+            $scope.follow = function(user){
+                relationships.follow(user);
+            }
+
 
 
             $scope.posts = posts.posts;

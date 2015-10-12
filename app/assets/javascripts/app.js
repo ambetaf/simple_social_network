@@ -1,4 +1,4 @@
-angular.module('midtermApp', ['ui.router', 'templates', 'Devise'])
+angular.module('midtermApp', ['ui.router', 'templates', 'Devise', 'restangular'])
 
     .config([
         '$stateProvider',
@@ -18,7 +18,7 @@ angular.module('midtermApp', ['ui.router', 'templates', 'Devise'])
                 })
                 .state('posts', {
                     url: '/posts/{id}',
-                    templateUrl: 'posts/_comment.html',
+                    templateUrl: 'posts/_commentPage.html',
                     controller: 'PostsCtrl',
                     resolve: {
                         post: ['$stateParams', 'posts', function($stateParams, posts) {
@@ -58,7 +58,7 @@ angular.module('midtermApp', ['ui.router', 'templates', 'Devise'])
                 })
                 .state('follow', {
                     url: '/users',
-                    templateUrl: 'users/_users.html',
+                    templateUrl: 'users/_usersAll.html',
                     controller: 'MainCtrl',
                     resolve: {
                         postPromise: ['users', function(users){
@@ -67,7 +67,7 @@ angular.module('midtermApp', ['ui.router', 'templates', 'Devise'])
                     }
                 })
 
-           $urlRouterProvider.otherwise('home');
+           //$urlRouterProvider.otherwise('home');
         }
     ])
 

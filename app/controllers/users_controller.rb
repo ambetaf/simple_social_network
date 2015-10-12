@@ -7,4 +7,7 @@ class UsersController < ApplicationController
     respond_with User.find(params[:id])
   end
 
+
+
+
 end
