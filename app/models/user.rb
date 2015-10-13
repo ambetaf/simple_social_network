@@ -23,12 +23,7 @@ class User < ActiveRecord::Base
     super(options.merge(include: [posts:{include: :user, comments: {include: :user}}]))
   end
 
-  # Follows a user.
-  def follow(other_user)
-    active_relationships.create(followed_id: other_user.id)
-  end
 
-  # Unfollows a user.
   def unfollow(other_user)
     active_relationships.find_by(followed_id: other_user.id).destroy
   end
@@ -38,11 +33,5 @@ class User < ActiveRecord::Base
     following.include?(other_user)
   end
 
-  def feed
-    following_ids = "SELECT followed_id FROM relationships
-                     WHERE  follower_id = :user_id"
-    Post.where("user_id IN (#{following_ids})
-                     OR user_id = :user_id", user_id: id)
-  end
 
 end

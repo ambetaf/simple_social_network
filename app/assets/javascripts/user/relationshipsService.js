@@ -13,6 +13,12 @@ angular.module('midtermApp')
                 });
             };
 
+            object.unfollow = function(id){
+                return $http.delete('/relationships/'+id+'.json').success(function(data){
+                });
+
+            }
+
 
 
             return object;

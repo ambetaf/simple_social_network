@@ -13,9 +13,4 @@ angular.module('midtermApp')
 
             $scope.relationships = relationships.relationships;
 
-
-
-
-
-
         }]);

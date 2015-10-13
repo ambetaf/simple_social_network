@@ -21,9 +21,8 @@ Rails.application.routes.draw do
     end
   end
 
-  post '/users/follow' => 'relationships#create'
 
-  resources :relationships, only: [:index, :create, :destroy]
+  resources :relationships, only: [:create, :destroy]
 
   resources :notifications, only: [:create, :index, :show]
   # get '*a' => 'application#angular'

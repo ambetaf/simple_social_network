@@ -4,7 +4,8 @@ angular.module('midtermApp')
         'posts',
         'post',
         'Auth',
-        function($scope, posts, post, Auth){
+        'notifications',
+        function($scope, posts, post, Auth, notifications){
 
             $scope.signedIn = Auth.isAuthenticated;
 
@@ -12,6 +13,11 @@ angular.module('midtermApp')
 
             $scope.addComment = function(){
                 if($scope.body === '') { return; }
+                notifications.createNotification({
+                    owner: $scope.post.user_id,
+                    content: "commented on your post",
+                    link: "#/posts/" + post.id
+                });
                 posts.addComment(post.id, {
                     body: $scope.body,
                     author: 'user',
@@ -24,5 +30,7 @@ angular.module('midtermApp')
             $scope.incrementLikes = function(comment){
                 posts.likeComment(post, comment);
             };
+
+            $scope.notifications = notifications.notifications;
 
         }]);

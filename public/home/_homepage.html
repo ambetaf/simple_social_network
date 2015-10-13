@@ -19,7 +19,13 @@
     <button type="submit" class="btn btn-primary">Post</button>
 </form>
 
-<div ng-repeat="post in posts | orderBy:'-created_at'">
+
+<div class="page-header" ng-hide="signedIn()">
+    Welcome to Simple Social Network
+</div>
+
+
+<div ng-show="signedIn()" ng-repeat="post in posts | orderBy:'-created_at'">
 
     <div class="container-fluid bg-info">
         <div class="row">

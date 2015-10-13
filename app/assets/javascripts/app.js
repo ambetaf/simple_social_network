@@ -8,7 +8,7 @@ angular.module('midtermApp', ['ui.router', 'templates', 'Devise', 'restangular']
             $stateProvider
                 .state('home', {
                     url: '/home',
-                    templateUrl: 'home/_myhome.html',
+                    templateUrl: 'home/_homepage.html',
                     controller: 'MainCtrl',
                     resolve: {
                         postPromise: ['posts', function(posts){
@@ -56,13 +56,23 @@ angular.module('midtermApp', ['ui.router', 'templates', 'Devise', 'restangular']
                         }]
                     }
                 })
-                .state('follow', {
+                .state('users', {
                     url: '/users',
-                    templateUrl: 'users/_usersAll.html',
+                    templateUrl: 'users/_usersAllList.html',
                     controller: 'MainCtrl',
                     resolve: {
                         postPromise: ['users', function(users){
                             return users.getAllUsers();
+                        }]
+                    }
+                })
+                .state('notifications', {
+                    url: '/notifications',
+                    templateUrl: 'users/_userNotifications.html',
+                    controller: 'MainCtrl',
+                    resolve: {
+                        postPromise: ['notifications', function(notifications){
+                            return notifications.getNotifications();
                         }]
                     }
                 })
