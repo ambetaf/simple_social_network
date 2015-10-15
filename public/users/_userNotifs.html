@@ -1,0 +1,21 @@
+<div class="page-header">
+    <h1>Notifications</h1>
+</div>
+
+<div ng-repeat="notification in notifications | orderBy:'-created_at'">
+    <div ng-if="notification.user.id != user.id">
+        <div class="container-fluid bg-info">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="container-fluid">
+                        <a ng-href="#/users/{{notification.user.id}}">{{notification.user.username}}</a>
+                        {{notification.content}}
+                        <a ng-show="notification.link" href="{{notification.link}}">Click here!</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+        <br>
+</div>

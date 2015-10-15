@@ -15,17 +15,18 @@
         <input type="text"
                class="form-control"
                placeholder="Comment"
-               ng-model="body">
+               ng-model="body"
+                id="comment">
         </input>
     </div>
-    <button type="submit" class="btn btn-primary">Comment</button>
+    <button type="submit" class="btn btn-primary" id="submit">Comment</button>
 </form>
 
 
 <div ng-repeat="comment in post.comments | orderBy:'-likes'">
     <div class="container-fluid">
-      <span class="glyphicon glyphicon-thumbs-up"
-            ng-click="incrementLikes(comment)">
+          <button id="like" name="like" ng-click="incrementLikes(comment)" >Like</button>
+                <button id="unlike" name="unlike" ng-click="decrementLikes(comment)" >Unlike</button>
           </span>
                 {{comment.likes}} - by <a ng-href="#/users/{{post.user.id}}">{{comment.user.username}}</a>
           <span style="font-size:20px; margin-left:10px;">

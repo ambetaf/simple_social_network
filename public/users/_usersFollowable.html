@@ -1,0 +1,23 @@
+<div class="page-header">
+    <h1>Users</h1>
+</div>
+
+<div ng-repeat="followable in users">
+
+    <div ng-if="followable.id != user.id">
+        <div class="container-fluid bg-info">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="container-fluid">
+                        <a ng-href="#/users/{{followable.id}}">{{followable.username}}</a>
+                    </div>
+                    <div class="row">
+                            <button ng-show="isFollowed(followable.id)" id="follow" class="btn btn-primary" ng-click="unfollow(followable.id); isHidden = !isHidden">Unfollow</button>
+                            <button ng-hide="isFollowed(followable.id)" id="unfollow" class="btn btn-primary" ng-click="follow(followable) ; isHidden = !isHidden">Follow</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <br>
+</div>
