@@ -56,3 +56,5 @@ group :test do
   gem 'selenium-webdriver'
   gem 'factory_girl_rails'
 end
+
+gem 'acts_as_votable'

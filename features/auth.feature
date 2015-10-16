@@ -1,21 +1,46 @@
 Feature: Authentication
-  In order to Register
-  A user
-  Should fill up a form
+  In order for a User to login
+  A User
+  Should fill up forms
 
   Scenario: Registering a new user
     Given I am on register
-    And I fill in "email" with "ambetaf@gmail.com"
-    And I fill in "username" with "Ambet Fuensalida"
-    And I fill in "password" with "password"
+    And I fill in the following:
+      |email|ambetaf@gmail.com|
+      |username|Ambet Fuensalida|
+      |password|password|
     When I press "submit"
     Then page should have text "Ambet"
 
-  Scenario: Logging in
-    Given I am on login
-    And I fill in "email" with "ambetaf@gmail.com"
-    And I fill in "password" with "password"
+  Scenario: Registering with existing username
+    Given I am on register
+    And I fill in the following:
+      |email|ambetaf@gmail.com|
+      |username|Ambet Fuensalida|
+      |password|password12|
     When I press "submit"
+    Then page should have text "Error registering user!!"
+
+  Scenario: Registering with password less than 6 characters
+    Given I am on register
+    And I fill in the following:
+      |email|ambetaf@gmail1.com|
+      |username|Ambet Fuensalida Jr|
+      |password|pas|
+    When I press "submit"
+    Then page should have text "Error registering user!!"
+
+  Scenario: Logging in
+    Given I'm logged in as Ambet
     Then page should have text "Ambet"
+
+
+  Scenario: Logging in with wrong credentials
+    Given I am on login
+    And I fill in the following:
+      |email|ambetaf@gmail.com|
+      |password|wrongpassword|
+    When I press "submit"
+    Then page should have text "Error logging in user!!"
 
   

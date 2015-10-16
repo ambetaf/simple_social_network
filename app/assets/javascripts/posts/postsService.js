@@ -27,6 +27,13 @@ angular.module('midtermApp')
                     });
             };
 
+            object.unlike = function(post) {
+                return $http.put('/posts/' + post.id + '/dislike.json')
+                    .success(function(data){
+                        post.likes -= 1;
+                    });
+            };
+
             object.get = function(id) {
                 return $http.get('/posts/' + id + '.json').then(function(resolve){
                     return resolve.data;
@@ -43,6 +50,15 @@ angular.module('midtermApp')
                         comment.likes += 1;
                     });
             };
+
+            object.unlikeComment = function(post, comment) {
+                return $http.put('/posts/' + post.id + '/comments/'+ comment.id + '/dislike.json')
+                    .success(function(data){
+                        comment.likes -= 1;
+                    });
+            };
+
+
 
             return object;
 

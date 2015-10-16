@@ -8,7 +8,7 @@ angular.module('midtermApp', ['ui.router', 'templates', 'Devise', 'restangular']
             $stateProvider
                 .state('home', {
                     url: '/home',
-                    templateUrl: 'home/_homepage.html',
+                    templateUrl: 'home/_homePage.html',
                     controller: 'MainCtrl',
                     resolve: {
                         postPromise: ['posts', function(posts){
@@ -18,7 +18,7 @@ angular.module('midtermApp', ['ui.router', 'templates', 'Devise', 'restangular']
                 })
                 .state('posts', {
                     url: '/posts/{id}',
-                    templateUrl: 'posts/_commentPage.html',
+                    templateUrl: 'posts/_postsComment.html',
                     controller: 'PostsCtrl',
                     resolve: {
                         post: ['$stateParams', 'posts', function($stateParams, posts) {
@@ -58,17 +58,20 @@ angular.module('midtermApp', ['ui.router', 'templates', 'Devise', 'restangular']
                 })
                 .state('users', {
                     url: '/users',
-                    templateUrl: 'users/_usersAllList.html',
+                    templateUrl: 'users/_usersFollowable.html',
                     controller: 'MainCtrl',
                     resolve: {
-                        postPromise: ['users', function(users){
-                            return users.getAllUsers();
+                        postPromise: ['users','relationships','$q', function(users, relationships,$q){
+                            return $q.all({
+                                users:users.getAllUsers(),
+                                relationships:relationships.getRelationships()
+                            })
                         }]
                     }
                 })
                 .state('notifications', {
                     url: '/notifications',
-                    templateUrl: 'users/_userNotifications.html',
+                    templateUrl: 'users/_userNotifs.html',
                     controller: 'MainCtrl',
                     resolve: {
                         postPromise: ['notifications', function(notifications){
@@ -77,7 +80,19 @@ angular.module('midtermApp', ['ui.router', 'templates', 'Devise', 'restangular']
                     }
                 })
 
-           //$urlRouterProvider.otherwise('home');
+           $urlRouterProvider.otherwise('login');
         }
-    ])
+    ]).run(function ($rootScope, $state) {
+        $rootScope.$on('$stateChangeStart', function (event, toState) {
+            var user = JSON.parse(localStorage.getItem('user'));
+            $rootScope.currentUser = user;
+            if (user != null)
+            {
+                if (toState.name === "login" || toState.name === "register") {
+                    event.preventDefault();
+                    $state.go('home');
+                }
+            }
+        })
+    });
 

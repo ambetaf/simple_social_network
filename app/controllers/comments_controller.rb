@@ -1,6 +1,6 @@
 class CommentsController < ApplicationController
 
-  before_filter :authenticate_user!, only: [:create, :like]
+  before_filter :authenticate_user!, only: [:create, :like, :upvote, :downvote]
 
   def create
     post = Post.find(params[:post_id])
@@ -8,11 +8,27 @@ class CommentsController < ApplicationController
     respond_with post, comment
   end
 
-  def like
+  # def like
+  #   post = Post.find(params[:post_id])
+  #   comment = post.comments.find(params[:id])
+  #   comment.increment!(:likes)
+  #
+  #   respond_with post, comment
+  # end
+
+  def upvote
     post = Post.find(params[:post_id])
     comment = post.comments.find(params[:id])
+    comment.upvote_by current_user
     comment.increment!(:likes)
+    respond_with post, comment
+  end
 
+  def downvote
+    post = Post.find(params[:post_id])
+    comment = post.comments.find(params[:id])
+    comment.unvote_by current_user
+    comment.decrement!(:likes)
     respond_with post, comment
   end
 

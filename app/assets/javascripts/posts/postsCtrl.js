@@ -28,9 +28,18 @@ angular.module('midtermApp')
             };
 
             $scope.incrementLikes = function(comment){
+                notifications.createNotification({
+                    owner: $scope.post.user_id,
+                    content: "liked your comment",
+                    link: "#/posts/" + post.id
+                });
                 posts.likeComment(post, comment);
             };
 
-            $scope.notifications = notifications.notifications;
+            $scope.decrementLikes = function(comment){
+                posts.unlikeComment(post, comment);
+            };
+
+
 
         }]);

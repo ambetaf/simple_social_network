@@ -2,10 +2,27 @@ angular.module('midtermApp')
     .controller('NavCtrl', [
         '$scope',
         'Auth',
-        function($scope, Auth){
+        '$state',
+        function($scope, Auth, $state){
 
             $scope.signedIn = Auth.isAuthenticated;
-            $scope.logout = Auth.logout;
+
+            $scope.logout = function(){
+                Auth.logout().then(function(){
+                $state.go('login');
+            })};
+
+
+            $scope.login = function() {
+                Auth.login($scope.user).then(function(){
+                    $state.go('home');
+                }, function(){
+                    $scope.error = "Error logging in user!!";
+                })
+            };
+
+
+
 
             Auth.currentUser().then(function (user){
                 $scope.user = user;

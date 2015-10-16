@@ -11,18 +11,21 @@
     <div class="form-group">
         <input type="text"
                class="form-control"
-               placeholder="Title"
+               placeholder="Post"
+               id="post"
                ng-model="title">
 
         </input>
     </div>
-    <button type="submit" class="btn btn-primary">Post</button>
+    <button type="submit" id="submit" class="btn btn-primary">Post</button>
 </form>
 
 
 <div class="page-header" ng-hide="signedIn()">
     Welcome to Simple Social Network
 </div>
+
+
 
 
 <div ng-show="signedIn()" ng-repeat="post in posts | orderBy:'-created_at'">
@@ -44,16 +47,15 @@
         </div>
         <div class="row">
             <div class="col-md-2">
-                <span class="glyphicon glyphicon-thumbs-up"
-                      ng-click="incrementLikes(post)">
-                </span>
+                <button id="like" name="like" ng-click="incrementLikes(post)" >Like</button>
+                <button id="unlike" name="unlike" ng-click="decrementLikes(post)" >Unlike</button>
                 {{post.likes}}
             </div>
                 <div class="col-md-8">
                 </div>
             <div class="col-md-2">
                 <span>
-                    <a href="#/posts/{{post.id}}">Comments</a>
+                    <a href="#/posts/{{post.id}}" id="comments">Comments</a>
                 </span>
             </div>
         </div>

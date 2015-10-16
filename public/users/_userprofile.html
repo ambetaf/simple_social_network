@@ -25,9 +25,8 @@
             </div>
             <div class="row">
                 <div class="col-md-2">
-                <span class="glyphicon glyphicon-thumbs-up"
-                      ng-click="incrementLikes(post)">
-                </span>
+                    <button id="like" name="like" ng-click="incrementLikes(post)" >Like</button>
+                    <button id="unlike" name="unlike" ng-click="decrementLikes(post)" >Unlike</button>
                     {{post.likes}}
                 </div>
                 <div class="col-md-8">

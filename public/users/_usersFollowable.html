@@ -12,8 +12,8 @@
                         <a ng-href="#/users/{{followable.id}}">{{followable.username}}</a>
                     </div>
                     <div class="row">
-                            <button ng-show="isFollowed(followable.id)" id="follow" class="btn btn-primary" ng-click="unfollow(followable.id); isHidden = !isHidden">Unfollow</button>
-                            <button ng-hide="isFollowed(followable.id)" id="unfollow" class="btn btn-primary" ng-click="follow(followable) ; isHidden = !isHidden">Follow</button>
+                            <button ng-show="isFollowed(followable.id)" id="unfollow" class="btn btn-primary" ng-click="unfollow(followable.id); isHidden = !isHidden">Unfollow</button>
+                            <button ng-hide="isFollowed(followable.id)" id="follow" class="btn btn-primary" ng-click="follow(followable) ; isHidden = !isHidden">Follow</button>
                     </div>
                 </div>
             </div>

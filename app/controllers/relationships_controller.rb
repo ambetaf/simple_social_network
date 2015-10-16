@@ -1,7 +1,7 @@
 class RelationshipsController < ApplicationController
 
   def index
-    respond_with Relationship.all
+    respond_with Relationship.where(follower_id: current_user.id)
   end
 
   def create
@@ -12,8 +12,15 @@ class RelationshipsController < ApplicationController
   end
 
   def destroy
-    respond_with user
+    respond_with Relationship.find_by_followed_id_and_follower_id(params[:id], current_user.id).destroy
   end
+
+  # def unfollow
+  #   sql = "SELECT * from relationships"
+  #   result = ActiveRecord::Base.connection.execute(sql)
+  #   # result.to_a
+  #   respond_with result
+  # end
 
   private
   def relationship_params

@@ -20,7 +20,6 @@ angular.module('midtermApp')
                 });
             };
 
-
             return object;
 
         }])

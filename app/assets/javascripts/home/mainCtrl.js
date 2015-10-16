@@ -31,29 +31,54 @@ angular.module('midtermApp')
                 posts.like(post);
             };
 
+            $scope.decrementLikes = function(post) {
+                posts.unlike(post);
+            };
+
             $scope.follow = function(user){
-                notifications.createNotification({
-                    owner: user.id,
-                    content: "followed you",
-                    link: ""
-                });
                 relationships.follow({
                     followed_id: user.id
-
                 });
+                    notifications.createNotification({
+                        owner: user.id,
+                        content: "followed you",
+                        link: ""
+                    });
+
+            };
+
+            $scope.unfollow = function(user_id){
+                relationships.unfollow(user_id)
             }
 
-            $scope.unfollow = function(id){
-                relationships.unfollow(id)
-            }
-            $scope.userAuth = Auth;
 
-
-
+            $scope.relationships = relationships.relationships;
             $scope.notifications = notifications.notifications;
             $scope.posts = posts.posts;
             $scope.users = users.users;
 
 
 
+            $scope.isFollowed = function(id){
+                var hasMatch =false;
+                for (var index = 0; index < relationships.relationships.length; ++index) {
+                    var object = relationships.relationships[index];
+                    if(object.followed_id == id){
+                        hasMatch = true;
+                        break;
+                    }
+                }
+                return hasMatch;
+            };
+
+            var lastUpdate = Date.now();
+            var myInterval = setInterval(tick, 0);
+
+            function tick() {
+                var now = Date.now();
+                var dt = now - lastUpdate;
+                lastUpdate = now;
+            }
+
+            $scope.isHidden = $scope.isHidden ? false : true;
         }])

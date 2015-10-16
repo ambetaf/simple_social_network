@@ -10,6 +10,10 @@ angular.module('midtermApp')
                 posts.like(post);
             };
 
+            $scope.decrementLikes = function(post) {
+                posts.unlike(post);
+            };
+
 
             $scope.posts = posts.posts;
 

@@ -16,7 +16,7 @@
                class="form-control"
                placeholder="Comment"
                ng-model="body"
-                id="comment">
+               id="comment">
         </input>
     </div>
     <button type="submit" class="btn btn-primary" id="submit">Comment</button>
@@ -26,7 +26,7 @@
 <div ng-repeat="comment in post.comments | orderBy:'-likes'">
     <div class="container-fluid">
           <button id="like" name="like" ng-click="incrementLikes(comment)" >Like</button>
-                <button id="unlike" name="unlike" ng-click="decrementLikes(comment)" >Unlike</button>
+          <button id="unlike" name="unlike" ng-click="decrementLikes(comment)" >Unlike</button>
           </span>
                 {{comment.likes}} - by <a ng-href="#/users/{{post.user.id}}">{{comment.user.username}}</a>
           <span style="font-size:20px; margin-left:10px;">
