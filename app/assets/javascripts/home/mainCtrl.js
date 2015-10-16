@@ -52,11 +52,6 @@ angular.module('midtermApp')
             }
 
 
-            $scope.relationships = relationships.relationships;
-            $scope.notifications = notifications.notifications;
-            $scope.posts = posts.posts;
-            $scope.users = users.users;
-
 
 
             $scope.isFollowed = function(id){
@@ -71,6 +66,11 @@ angular.module('midtermApp')
                 return hasMatch;
             };
 
+            $scope.relationships = relationships.relationships;
+            $scope.notifications = notifications.notifications;
+            $scope.posts = posts.posts;
+            $scope.users = users.users;
+
             var lastUpdate = Date.now();
             var myInterval = setInterval(tick, 0);
 
@@ -78,6 +78,8 @@ angular.module('midtermApp')
                 var now = Date.now();
                 var dt = now - lastUpdate;
                 lastUpdate = now;
+
+
             }
 
             $scope.isHidden = $scope.isHidden ? false : true;
