@@ -8,13 +8,8 @@ angular.module('midtermApp', ['ui.router', 'templates', 'Devise', 'restangular']
             $stateProvider
                 .state('home', {
                     url: '/home',
-                    templateUrl: 'home/_homePage.html',
-                    controller: 'MainCtrl',
-                    resolve: {
-                        postPromise: ['posts', function(posts){
-                            return posts.getAll();
-                        }]
-                    }
+                    templateUrl: 'home/_indexUser.html',
+                    controller: 'MainCtrl'
                 })
                 .state('posts', {
                     url: '/posts/{id}',
@@ -58,16 +53,17 @@ angular.module('midtermApp', ['ui.router', 'templates', 'Devise', 'restangular']
                 })
                 .state('users', {
                     url: '/users',
-                    templateUrl: 'users/_usersFollowable.html',
-                    controller: 'MainCtrl',
-                    resolve: {
-                        postPromise: ['users','relationships','$q', function(users, relationships,$q){
-                            return $q.all({
-                                users:users.getAllUsers(),
-                                relationships:relationships.getRelationships()
-                            })
-                        }]
-                    }
+                    templateUrl: 'users/_usersListFollowables.html',
+                    controller: 'MainCtrl'
+                    //,
+                    //resolve: {
+                    //    postPromise: ['users','relationships','$q', function(users, relationships,$q){
+                    //        return $q.all({
+                    //            users:users.getAllUsers(),
+                    //            relationships:relationships.getRelationships()
+                    //        })
+                    //    }]
+                    //}
                 })
                 .state('notifications', {
                     url: '/notifications',
@@ -82,7 +78,8 @@ angular.module('midtermApp', ['ui.router', 'templates', 'Devise', 'restangular']
 
            $urlRouterProvider.otherwise('login');
         }
-    ]).run(function ($rootScope, $state) {
+    ])
+    .run(function ($rootScope, $state) {
         $rootScope.$on('$stateChangeStart', function (event, toState) {
             var user = JSON.parse(localStorage.getItem('user'));
             $rootScope.currentUser = user;

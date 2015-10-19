@@ -6,6 +6,6 @@
         <li ng-show="signedIn()"><a id="profile" href="#/users/{{user.id}}">{{ user.username }}</a></li>
         <li ng-show="signedIn()"><a id="users" href="#/users">Users</a></li>
         <li ng-show="signedIn()"><a id="notifications" href="#/notifications">Notifications</a></li>
-        <li ng-show="signedIn()"><a id="logout" ng-click="logout()">Log Out</a></li>
+        <li ng-show="signedIn()"><button class="btn btn-danger" id="logout" ng-click="logout()">Log Out</button></li>
     </ul>
 </div>

@@ -34,6 +34,11 @@ Feature: Authentication
     Given I'm logged in as Ambet
     Then page should have text "Ambet"
 
+  Scenario: Logging out
+    Given I'm logged in as Ambet
+    And I press "logout"
+    Then page should have text "Log In"
+
 
   Scenario: Logging in with wrong credentials
     Given I am on login

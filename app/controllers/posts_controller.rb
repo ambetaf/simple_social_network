@@ -42,8 +42,10 @@ class PostsController < ApplicationController
   #   respond_with result
   # end
 
-  def likedPost
-    respond_with current_user.get_up_voted Post
+  def liked
+    sql = "SELECT * from votes where votable_type = 'Post'"
+      result = ActiveRecord::Base.connection.execute(sql)
+    respond_with result
   end
 
   private

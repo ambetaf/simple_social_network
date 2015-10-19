@@ -28,7 +28,7 @@ Rails.application.routes.draw do
 
   resources :relationships, only: [:create, :destroy, :index]
 
-  get 'posts/liked' => 'posts#likedPosts'
+  get 'users/posts/liked' => 'posts#liked'
 
   resources :notifications, only: [:create, :index, :show]
   # get '*a' => 'application#angular'

@@ -1,0 +1,64 @@
+
+<div class="page-header">
+    <h1>Home</h1>
+</div>
+
+<form ng-submit="addPost()"
+      style="margin-top:30px;"
+      ng-show="signedIn()">
+    <h3>Add a new post</h3>
+
+    <div class="form-group">
+        <input type="text"
+               class="form-control"
+               placeholder="Post"
+               id="post"
+               ng-model="title">
+
+        </input>
+    </div>
+    <button type="submit" id="submit" class="btn btn-primary">Post</button>
+</form>
+
+
+<div class="page-header" ng-hide="signedIn()">
+    Welcome to Simple Social Network
+</div>
+
+
+
+
+
+<div ng-show="signedIn()" ng-repeat="post in posts | orderBy:'-created_at'">
+    <div class="container-fluid bg-info">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="container-fluid">
+                   <a ng-href="#/users/{{post.user.id}}">{{post.user.username}}</a>
+                </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span style="font-size:20px; margin-left:10px;">
+                            {{post.title}}
+                            </span>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <button ng-hide="isLiked(post.id)" id="like" name="like" ng-click="incrementLikes(post)" >Like</button>
+                <button ng-show="isLiked(post.id)" id="unlike" name="unlike" ng-click="decrementLikes(post)" >Unlike</button>
+                {{post.likes}}
+            </div>
+                <div class="col-md-8">
+                </div>
+            <div class="col-md-2">
+                <span>
+                    <a href="#/posts/{{post.id}}" id="comments">Comments</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>

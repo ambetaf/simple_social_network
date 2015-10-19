@@ -6,7 +6,8 @@ angular.module('midtermApp')
         'users',
         'relationships',
         'notifications',
-        function($scope, posts, Auth, users,relationships,notifications){
+        'likes',
+        function($scope, posts, Auth, users,relationships,notifications, likes){
 
             $scope.signedIn = Auth.isAuthenticated;
 
@@ -29,6 +30,7 @@ angular.module('midtermApp')
                     link: "#/posts/" + post.id
                 });
                 posts.like(post);
+                getLiked();
             };
 
             $scope.decrementLikes = function(post) {
@@ -42,17 +44,51 @@ angular.module('midtermApp')
                     notifications.createNotification({
                         owner: user.id,
                         content: "followed you",
-                        link: ""
+                        link: "#/users/" + $scope.user.id
                     });
+                getUsers();
+                getAllRelationships();
 
             };
 
             $scope.unfollow = function(user_id){
-                relationships.unfollow(user_id)
+                relationships.unfollow(user_id);
+                getUsers();
+                getAllRelationships();
+            };
+
+
+            var getAllRelationships = function(){
+                return relationships.getRelationships();
+            };
+            getAllRelationships();
+
+
+            var getPosts = function(){
+                return posts.getAll();
+            };
+            getPosts();
+
+            var getUsers = function(){
+                return users.getAllUsers();
+            }
+            getUsers();
+
+            var getNotif = function(){
+                return notifications.getNotifications();
             }
 
+            var getLiked = function(){
+                return likes.getAllLikes();
+            }
+            getLiked();
 
 
+            $scope.posts = posts.posts;
+            $scope.users = users.users;
+            $scope.relationships = relationships.relationships;
+            $scope.notifications = notifications.notifications;
+            $scope.likes = likes.likes;
 
             $scope.isFollowed = function(id){
                 var hasMatch =false;
@@ -66,21 +102,27 @@ angular.module('midtermApp')
                 return hasMatch;
             };
 
-            $scope.relationships = relationships.relationships;
-            $scope.notifications = notifications.notifications;
-            $scope.posts = posts.posts;
-            $scope.users = users.users;
-
-            var lastUpdate = Date.now();
-            var myInterval = setInterval(tick, 0);
-
-            function tick() {
-                var now = Date.now();
-                var dt = now - lastUpdate;
-                lastUpdate = now;
 
 
-            }
 
-            $scope.isHidden = $scope.isHidden ? false : true;
+
+            $scope.isLiked = function(user_id){
+                var hasMatch = false;
+                for(var index = 0; index < likes.likes.length; ++index){
+                    var object = likes.likes[index];
+                    if(object.voter_id == $scope.user.id && object.votable_id == user_id){
+                        hasMatch = true;
+                        break;
+                    }
+                }
+                return hasMatch;
+            };
+
+            //$timeout(getUsers(), getPosts(), getAllRelationships()
+            //, 10);
+            window.setInterval(function(){
+                getPosts();
+                getNotif();
+            }, 5000);
+
         }])
